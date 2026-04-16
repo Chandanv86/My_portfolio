@@ -138,7 +138,8 @@ export default function FullWidthTabs() {
         id: "nexus-ai",
         Title: "NEXUS — AI Resume Screening System",
         Description: "Built a full-stack AI-powered resume screening platform to automate candidate evaluation against job descriptions. Designed a FastAPI backend with NLP-based scoring, and an interactive Django-based recruiter dashboard enriched with scraper data via Scrapy.",
-        TechStack: ["FastAPI", "Django", "Scrapy", "OpenAI API"],
+        TechStack: ["FastAPI", "Django", "Scrapy", "OpenAI API", "Git", "PostgreSQL"],
+        Features: ["Automated NLP candidate scoring", "Asynchronous scraping of applicant data", "Recruiter interactive analytics UI"],
         Img: "https://res.cloudinary.com/dbn4qcjag/image/upload/v1776341975/project_nexus_c2wvvl.jpg",
         Link: "https://github.com/Chandanv86/nexus"
       },
@@ -146,7 +147,8 @@ export default function FullWidthTabs() {
         id: "swiggy-prediction",
         Title: "Swiggy Delivery Time Prediction",
         Description: "Developed a production-grade regression model to predict food delivery latency. Built a REST API for real-time predictions, containerized with Docker, and deployed on Oracle Cloud through an automated CI/CD pipeline.",
-        TechStack: ["Python", "Oracle Cloud", "DVC", "Docker", "CI/CD"],
+        TechStack: ["Python", "Oracle Cloud", "Docker", "CI/CD", "MLflow", "Git"],
+        Features: ["XGBoost ensemble regression models", "Dockerized REST API", "Automated deployment pipeline on Oracle Cloud"],
         Img: "https://res.cloudinary.com/dbn4qcjag/image/upload/v1776341995/project_swiggy_anrc14.jpg",
         Link: "https://github.com/Chandanv86/SwiggySense"
       },
@@ -154,7 +156,8 @@ export default function FullWidthTabs() {
         id: "student-performance",
         Title: "Student Performance Indicator",
         Description: "Built an end-to-end ML pipeline with modular components for Data Ingestion, Transformation, and Model Training. Deployed predictions via a Flask UI with centralized logging and exception handling.",
-        TechStack: ["Scikit-Learn", "Flask", "GitHub Actions", "Python"],
+        TechStack: ["Scikit-Learn", "Flask", "GitHub Actions", "Python", "MLflow", "Git"],
+        Features: ["Modular E2E Data Pipeline", "CatBoost & Lasso linear tuning", "Flask server with logging integrations"],
         Img: "https://res.cloudinary.com/dbn4qcjag/image/upload/v1776341985/project_performance_dihfve.jpg",
         Link: "https://github.com/Chandanv86/Student-Performance-Indicator"
       }
