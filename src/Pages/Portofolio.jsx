@@ -140,7 +140,7 @@ export default function FullWidthTabs() {
         Description: "Built a full-stack AI-powered resume screening platform to automate candidate evaluation against job descriptions. Designed a FastAPI backend with NLP-based scoring, and an interactive Django-based recruiter dashboard enriched with scraper data via Scrapy.",
         TechStack: ["FastAPI", "Django", "Scrapy", "OpenAI API"],
         Img: "https://res.cloudinary.com/dbn4qcjag/image/upload/v1776341975/project_nexus_c2wvvl.jpg",
-        Link: ""
+        Link: "https://github.com/Chandanv86/nexus"
       },
       {
         id: "swiggy-prediction",
@@ -148,7 +148,7 @@ export default function FullWidthTabs() {
         Description: "Developed a production-grade regression model to predict food delivery latency. Built a REST API for real-time predictions, containerized with Docker, and deployed on Oracle Cloud through an automated CI/CD pipeline.",
         TechStack: ["Python", "Oracle Cloud", "DVC", "Docker", "CI/CD"],
         Img: "https://res.cloudinary.com/dbn4qcjag/image/upload/v1776341995/project_swiggy_anrc14.jpg",
-        Link: ""
+        Link: "https://github.com/Chandanv86/SwiggySense"
       },
       {
         id: "student-performance",
@@ -156,7 +156,7 @@ export default function FullWidthTabs() {
         Description: "Built an end-to-end ML pipeline with modular components for Data Ingestion, Transformation, and Model Training. Deployed predictions via a Flask UI with centralized logging and exception handling.",
         TechStack: ["Scikit-Learn", "Flask", "GitHub Actions", "Python"],
         Img: "https://res.cloudinary.com/dbn4qcjag/image/upload/v1776341985/project_performance_dihfve.jpg",
-        Link: ""
+        Link: "https://github.com/Chandanv86/Student-Performance-Indicator"
       }
     ];
 

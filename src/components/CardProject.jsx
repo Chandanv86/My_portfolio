@@ -1,14 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ExternalLink, ArrowRight } from 'lucide-react';
+import { Github, ArrowRight } from 'lucide-react';
 
 const CardProject = ({ Img, Title, Description, Link: ProjectLink, id }) => {
   // Handle kasus ketika ProjectLink kosong
-  const handleLiveDemo = (e) => {
+  const handleGithubLink = (e) => {
     if (!ProjectLink) {
       console.log("ProjectLink kosong");
       e.preventDefault();
-      alert("Live demo link is not available");
+      alert("GitHub link is not available");
     }
   };
   
@@ -51,14 +51,14 @@ const CardProject = ({ Img, Title, Description, Link: ProjectLink, id }) => {
                 href={ProjectLink || "#"}
                   target="_blank"
                   rel="noopener noreferrer"
-                  onClick={handleLiveDemo}
+                  onClick={handleGithubLink}
                   className="inline-flex items-center space-x-2 text-blue-400 hover:text-blue-300 transition-colors duration-200"
                 >
-                  <span className="text-sm font-medium">Live Demo</span>
-                  <ExternalLink className="w-4 h-4" />
+                  <span className="text-sm font-medium">GitHub</span>
+                  <Github className="w-4 h-4" />
                 </a>
               ) : (
-                <span className="text-gray-500 text-sm">Demo Not Available</span>
+                <span className="text-gray-500 text-sm">Code Not Available</span>
               )}
               
      
